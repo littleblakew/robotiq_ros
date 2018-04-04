@@ -27,6 +27,10 @@ catkin_make
 ```
 rosdep install robotiq_modbus_tcp 
 ```
+4. Install force_torque_tools.
+```
+sudo apt-get install ros-indigo-force-torque-tools
+```
 
 # Configuration
 1. Enter the robotiq_ros folder
