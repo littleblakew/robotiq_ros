@@ -37,10 +37,13 @@ sudo cp /robotiq_force_torque_sensor/udev/52-ftdi.rules /etc/udev/rules.d
 # Usage
 [Gripper]
 ```
-rosrun 
+rosrun robotiq_s_model_control SModelTcpNode.py 192.168.1.11 
+rosrun robotiq_s_model_control SModelSimpleController.py 
 ```
 [F/T Sensor]
-
+```
+roslaunch robotiq_force_torque_sensor ft_300.launch
+```
 [ROS indigo]: http://wiki.ros.org/indigo/Installation/Ubuntu
 
 # Reference
