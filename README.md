@@ -12,7 +12,7 @@ sudo apt-get install ros-indigo-moveit ros-indigo-moveit-full-pr2 ros-indigo-soe
 1. Clone the repo into your workspace.
 ```
 cd <YOUR WORKSPACE>/src/
-git clone
+git clone https://github.com/littleblakew/robotiq_ros.git
 ```
 2. Compile the packages.
 ```
