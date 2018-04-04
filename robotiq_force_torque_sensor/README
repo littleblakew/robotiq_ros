@@ -1,0 +1,10 @@
+Sample udev rule provided in udev folder
+copy this to /etc/udev/rules.d
+Modify to take into account ftdi RS485 adaptor used
+Check ID that the adaptor comes up on (ex: ftdi_DAT2I6O)
+Copy this ID to the launch file
+
+Force Torque provides data on 
+/robotiq_force_torque_sensor   
+/robotiq_force_torque_wrench
+
