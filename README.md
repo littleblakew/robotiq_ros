@@ -8,6 +8,22 @@ This repo holds source code for ROS (indigo).
 ```
 sudo apt-get install ros-indigo-moveit ros-indigo-moveit-full-pr2 ros-indigo-soem ros-indigo-controller-manager ros-indigo-socketcan-bridge
 ```
+# Installation
+1. Clone the repo into your workspace.
+```
+cd <YOUR WORKSPACE>/src/
+git clone
+```
+2. Compile the packages.
+```
+cd ..
+catkin_make
+```
+3. Install robotiq_modbus_tcp. 
+```
+rosdep install robotiq_modbus_tcp 
+```
+
 # Configuration
 1. Enter the robotiq_ros folder
 2. Copy the rule "52-ftdi.rules" into "/etc/udev/rules.d"
@@ -20,11 +36,13 @@ sudo cp /robotiq_force_torque_sensor/udev/52-ftdi.rules /etc/udev/rules.d
 
 # Usage
 [Gripper]
-
+```
+rosrun 
+```
 [F/T Sensor]
 
 [ROS indigo]: http://wiki.ros.org/indigo/Installation/Ubuntu
 
 # Reference
-https://github.com/ros-industrial/robotiq
-https://github.com/ibaranov-cp/husky_UR_accessories
+1. https://github.com/ros-industrial/robotiq
+2. https://github.com/ibaranov-cp/husky_UR_accessories
