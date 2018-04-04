@@ -33,7 +33,7 @@ sudo apt-get install ros-indigo-force-torque-tools
 ```
 
 # Configuration
-[S-Gripper]
+[Gripper]
 See: [S-Gripper][]
 
 [FT300]
