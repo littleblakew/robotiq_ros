@@ -8,6 +8,10 @@ This repo holds source code for ROS (indigo).
 ```
 sudo apt-get install ros-indigo-moveit ros-indigo-moveit-full-pr2 ros-indigo-soem ros-indigo-controller-manager ros-indigo-socketcan-bridge
 ```
+3. Install UR packages.
+```
+sudo apt-get install ros-indigo-universal-robot
+```
 # Installation
 1. Clone the repo into your workspace.
 ```
