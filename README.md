@@ -42,9 +42,6 @@ sudo cp /robotiq_force_torque_sensor/udev/52-ftdi.rules /etc/udev/rules.d
 4. Check the new name of device of FT300, which is supposed to be "/dev/ftdi_XXXXXXXX".
 5. Replace the old name of device of FT300 in "robotiq_force_torque_sensor/launch/ft_300.launch" with the new name of device of FT300.
 
-[Calibration of Sensor]
-See: [ROS force_torque_tools][]
-
 # Usage
 [Gripper]
 ```
