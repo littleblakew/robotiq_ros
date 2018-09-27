@@ -1,16 +1,16 @@
 # robotiq_ros
 
-This repo holds source code for ROS (indigo).
+This repo holds source code for ROS.
 
 # Prerequisites
-1. Install Ros (indigo). See: [ROS indigo][]
+1. Install ROS.
 2. Install Moveit and other dependencies.
 ```
-sudo apt-get install ros-indigo-moveit ros-indigo-moveit-full-pr2 ros-indigo-soem ros-indigo-controller-manager ros-indigo-socketcan-bridge
+sudo apt-get install ros-<distro>-moveit ros-<distro>-moveit-full-pr2 ros-<distro>-soem ros-<distro>-controller-manager ros-<distro>-socketcan-bridge
 ```
 3. Install UR packages.
 ```
-sudo apt-get install ros-indigo-universal-robot
+sudo apt-get install ros-<distro>-universal-robot
 ```
 # Installation
 1. Clone the repo into your workspace.
@@ -52,7 +52,6 @@ rosrun robotiq_s_model_control SModelSimpleController.py
 ```
 roslaunch robotiq_force_torque_sensor ft_300.launch
 ```
-[ROS indigo]: http://wiki.ros.org/indigo/Installation/Ubuntu
 [ROS force_torque_tools]: http://wiki.ros.org/force_torque_tools/Tutorials/Force-torque%20sensor%20calibration
 [S-Gripper]: https://us.v-cdn.net/6027406/uploads/editor/8j/gmmvz5b1kx3j.pdf
 
