@@ -29,10 +29,10 @@ rosdep install robotiq_modbus_tcp
 ```
 
 # Configuration
-[Gripper]
+## Gripper
 See: [S-Gripper][]
 
-[FT300]
+## FT 300 
 1. Enter the robotiq_ros folder
 2. Copy the rule "udev/52-ftdi.rules" into "/etc/udev/rules.d"
 ```
@@ -43,12 +43,12 @@ sudo cp /robotiq_force_torque_sensor/udev/52-ftdi.rules /etc/udev/rules.d
 5. Replace the old name of device of FT300 in "robotiq_force_torque_sensor/launch/ft_300.launch" with the new name of device of FT300.
 
 # Usage
-[Gripper]
+## Gripper
 ```
 rosrun robotiq_s_model_control SModelTcpNode.py 192.168.1.11 
 rosrun robotiq_s_model_control SModelSimpleController.py 
 ```
-[F/T Sensor]
+## FT 300
 ```
 roslaunch robotiq_force_torque_sensor ft_300.launch
 ```
